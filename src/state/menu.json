@@ -1,0 +1,194 @@
+{
+    "sandwiches": [
+        {
+            "name": "Angelo's (Coppa, Salami, and Mortadella)",
+            "price": "$12.75",
+            "isFavorite": true,
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "BLT (Bacon, Lettuce, and Tomato)",
+            "price": "$11.45",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Bologna",
+            "price": "$11.75",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Cheese",
+            "price": "$11.95",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Chicken Salad",
+            "price": "$11.95",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Coppa (Hot or Mild)",
+            "price": "$12.75",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Corn Beef",
+            "price": "$11.95",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Egg Salad",
+            "price": "$11.95",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Genoa Salami",
+            "price": "$12.75",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Ham",
+            "price": "$11.95",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Head Cheese",
+            "price": "$11.95",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Liverwurst",
+            "price": "$11.95",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Louisiana Sausage",
+            "price": "$12.45",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Meatball or Meatloaf",
+            "price": "$12.45",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Mortadella",
+            "price": "$11.95",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Pastrami",
+            "price": "$11.95",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Poorboy",
+            "price": "$11.95",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Prosciutto",
+            "price": "$13.45",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Richlady (Ham, Turkey, and Salami)",
+            "price": "$12.45",
+            "isFavorite": true,
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Roast Beef",
+            "price": "$12.45",
+            "isFavorite": true,
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Rueben",
+            "price": "$12.45",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Salami",
+            "price": "$11.95",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Super Natural (Veggie)",
+            "price": "$11.95",
+            "image": "/sandwich-group.jpg",
+            "isFavorite": true
+        },
+        {
+            "name": "Thuringer (Beef)",
+            "price": "$12.75",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Toscano",
+            "price": "$12.45",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Tuna",
+            "price": "$11.95",
+            "image": "/sandwich-group.jpg",
+            "isFavorite": true
+        },
+        {
+            "name": "Turkey",
+            "price": "$11.95",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Turkey, Bacon, and Avocado",
+            "price": "$12.95",
+            "isFavorite": true,
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "Turkey Cranberry",
+            "price": "$12.45",
+            "image": "/sandwich-group.jpg"
+        },
+        {
+            "name": "B.B.Q. Beef",
+            "price": "$12.45",
+            "image": "/sandwich-group.jpg"
+        }        
+    ],
+    "houseMenu": [
+        "Lasagna",
+        "Tamales",
+        "Eggplant Parmesan",
+        "Ravioli",
+        "Spaghetti"
+    ],
+    "homeMadeSalad": [
+        "Potato",
+        "Macaroni",
+        "Tomatoe with Cucumber",
+        "Pesto Pasta"
+    ],
+    "marinatedSalads": [
+        "Artichoke",
+        "Mushroom Beet",
+        "Olive",
+        "Three Bean"
+    ],
+    "lowCalorieSalads": [
+        "Coleslaw",
+        "Fresh Fruit",
+        "Garden"
+    ],
+    "beverages": [
+        "Soda",
+        "Water",
+        "Coffee (Santa Cruz Organic)",
+        "Tea",
+        "Juice"
+    ],
+    "desserts": [
+        "Cake (From Just Desserts)"
+    ]
+}

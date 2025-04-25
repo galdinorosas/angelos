@@ -1,0 +1,31 @@
+const ContactUs = () => {
+  return (
+    <section className="w-full h-screen bg-gray px-4 md:px-8 py-12 mb-24 font-[family-name:var(--font-poppins)]">
+      <h2 className="text-[32px] font-md text-center md:text-left mb-12">
+        Contact Us
+      </h2>
+      <section className="flex flex-col gap-8 justify-center items-center">
+        <p className="text-center max-w-[800px]">
+          {`Savor the authentic flavors of Italy with our delicious sandwiches, 
+          crafted with the finest ingredients. Planning a special event?
+          Let Angelo's Gourmet Delicatessen bring the taste of Italy to you!
+          For catering inquiries, please give us a call. We look forward to hearing from you!`}
+        </p>
+        <div className="flex flex-col gap-4 justify-center items-center">
+          <div className="flex flex-row gap-4">
+            <p className="font-bold">Phone:</p>
+            <p>510-234-2485</p>
+          </div>
+          <div className="flex flex-row gap-4">
+            <p className="font-bold">Address:</p>
+            <p>12025 San Pablo Avenue, Richmond, CA 94805</p>
+          </div>
+        </div>
+      </section>
+      <iframe className="w-[100%] h-[50%] md:w-[70%] md:h-[70%] mx-auto mt-12 rounded-md border border-gray-300" width="600" height="450" loading="lazy" allowFullScreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJFdHWPkZ4hYARaZdYSz8yfU4&key=AIzaSyDUKXQD80xYS8RXcNtqLg0a3XOjGcY0rw8"></iframe>
+    </section>
+  );
+}
+
+
+export default ContactUs;
