@@ -1,12 +1,8 @@
-'use client';
-
 import { useEffect, useState } from 'react';
 import Modal from 'react-modal';
 import Image from 'next/image';
-import useMediaQuery from '@/hooks/useMediaQuery';
 
 const ImageModal = ({handleClose}: {handleClose: () => void}) => {
-    const isMobile = useMediaQuery('(max-width: 768px)');
     const [imageState, setImageState] = useState<{image: string, name: string} | null>();
 
     useEffect(() => {
@@ -20,25 +16,15 @@ const ImageModal = ({handleClose}: {handleClose: () => void}) => {
         overlay: {
             backgroundColor: 'rgba(0, 0, 0, 0.7)',
         },
-        content: {
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
-          width: isMobile ? '100%' : '65%',
-          height: isMobile ? '50%' : '65%',
-          bgcolor: 'background.paper',
-          p: 4,
-          outline: 'none',
-          borderRadius: '8px',
-        },
     };
 
   return (
     <Modal
         isOpen={true}
         aria-labelledby="image-modal-title"
-        style={style}
         onRequestClose={handleClose}
+        style={style}
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-[50%] sm:w-[65%] md:h-[65%] bg-white rounded-md p-4 outline-none"
       >
         <Image className="w-full h-full object-cover object-center" src={imageState?.image || ''} alt={imageState?.name || ''} width={700} height={700} />
       </Modal>

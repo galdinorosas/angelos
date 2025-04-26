@@ -1,12 +1,10 @@
-'use client'
-
 import Image from "next/image";
-import useMediaQuery from "@/hooks/useMediaQuery";
 
 import SquareLink from "@/components/landing/SquareLink";
+import storeFront from "../../public/store-front.webp"
+
 
 export default function Home() {
-  const isMobile = useMediaQuery('(max-width: 768px)');
 
   const menuLink = <SquareLink key="menu-link" text="View our menu" href="/menu" />
   const aboutUsLink = <SquareLink key="about-us-link" text="About us" href="/about"/>
@@ -45,16 +43,15 @@ export default function Home() {
     <>
       <Image
           className="w-full object-cover h-[300px] md:h-[500px]"
-          src="/store-front.webp"
+          src={storeFront}
           alt="Angelos Store Front"
-          width={1200}
-          layout="responsive"
-          height={400}
           priority
       />
-      <section className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-4 gap-4 p-4 bg-white">
-        {!isMobile && desktopOrder}
-        {isMobile && mobileOrder}
+      <section className="sm:hidden md:grid grid-cols-1 md:grid-cols-2 md:grid-rows-4 gap-4 p-4 bg-white">
+        {desktopOrder}
+      </section>
+      <section className="md:hidden grid-cols-1 md:grid-cols-2 md:grid-rows-4 gap-4 p-4 bg-white">
+        {mobileOrder}
       </section>
     </>
       
