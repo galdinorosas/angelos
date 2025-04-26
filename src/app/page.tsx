@@ -45,7 +45,7 @@ export default function Home() {
     <>
       <Image
           className="w-full object-cover h-[300px] md:h-[500px]"
-          src="/store-front.jpg"
+          src="/store-front.webp"
           alt="Angelos Store Front"
           width={1200}
           height={400}
