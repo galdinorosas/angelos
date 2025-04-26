@@ -35,7 +35,9 @@ export default function RootLayout({
           ${italianno.variable}
           antialiased
           bg-white
-          bg-[url('../../public/vegetables-bg.jpg')]
+          bg-[url('../../public/vegetables.webp')]
+          bg-cover
+          bg-center
           bg-fixed
         `}
       >
