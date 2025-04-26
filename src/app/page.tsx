@@ -48,6 +48,7 @@ export default function Home() {
           src="/store-front.webp"
           alt="Angelos Store Front"
           width={1200}
+          layout="responsive"
           height={400}
           priority
       />
