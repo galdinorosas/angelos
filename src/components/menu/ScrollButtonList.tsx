@@ -5,7 +5,7 @@ type ScrollButtonListProps = {
 
 const ScrollButtonList = ({sectionHeaders}: ScrollButtonListProps) => {
     return (
-        <section className="flex flex-row gap-3 flex-wrap justify-center md:justify-start">
+        <section className="flex flex-row gap-3 flex-wrap justify-center">
             {sectionHeaders.map(header => (
                 <button 
                     onClick={() => {

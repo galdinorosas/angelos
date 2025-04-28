@@ -1,7 +1,7 @@
 const ContactUs = () => {
   return (
     <section className="w-full h-screen bg-gray px-4 md:px-8 py-12 mb-24 font-[family-name:var(--font-poppins)]">
-      <h2 className="text-[32px] font-md text-center md:text-left mb-12">
+      <h2 className="text-[32px] font-md text-center mb-12">
         Contact Us
       </h2>
       <section className="flex flex-col gap-8 justify-center items-center">

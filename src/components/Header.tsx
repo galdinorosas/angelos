@@ -35,7 +35,7 @@ export default function Header() {
     <>
       <nav className="w-full max-w-100vw bg-transparent fixed z-10">
         <section className="h-[60px] max-w-[1200px] py-4 px-8 flex place-content-between mx-auto bg-white border-l border-r shadow-gray-300 shadow-sm">
-          <Link href="/" className="font-[family-name:var(--font-italianno)] text-black text-[24px] md:text-[32px] -mt-1 md:-mt-[10px]" onClick={() => setIsOpen(false)}>Angelos Gourmet Deli.</Link>
+          <Link href="/" className="font-[family-name:var(--font-italianno)] text-black text-[24px] md:text-[32px] -mt-1 md:-mt-[10px]" onClick={() => setIsOpen(false)}>{`Angelo's Gourmet Deli.`}</Link>
           <section className="hidden md:flex gap-4 text-black items-center font-[family-name:var(--font-poppins)]">
             {getNavigationLinks("desktop")}
           </section>

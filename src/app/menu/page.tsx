@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
       <section className="w-full h-full bg-gray px-4 md:px-8 py-12 font-[family-name:var(--font-poppins)]">
-        <h2 className="text-[32px] font-md text-center md:text-left mb-12">
+        <h2 className="text-[32px] font-md text-center mb-12">
           Our Menu
         </h2>
         <ScrollButtonList sectionHeaders={sectionTitles} />

@@ -19,7 +19,7 @@ export default function Home() {
     <Image alt="contact-us-image" src="/owners.webp"  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 40vw, 33vw" fill className="rounded-md" loading="lazy"/>
   </div>
   const galleryImage = <div key="gallery-image" className={commonImageClassName}>
-    <Image alt="gallery-image" src="/chips.webp"  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 40vw, 33vw" fill className="rounded-md" loading="lazy"/>
+    <Image alt="gallery-image" src="/chips-2.webp"  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 40vw, 33vw" fill className="rounded-md" loading="lazy"/>
   </div>
 
   const mobileOrder = [

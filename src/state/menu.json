@@ -195,5 +195,14 @@
     ],
     "desserts": [
         "Cake (From Just Desserts)"
+    ],
+    "galleryRoutes": [
+        "/owners.webp",
+        "/store-1.webp",
+        "/store-3.webp",
+        "/store-4.webp",
+        "/chips-1.webp",
+        "/chips-2.webp",
+        "/owner-2.webp"
     ]
 }
