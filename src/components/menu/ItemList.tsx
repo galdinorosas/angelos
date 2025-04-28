@@ -34,7 +34,7 @@ const ItemList = ({items, title, className, isSubList, onClick}: ItemListProps) 
             <p>{`Includes: `}</p>
             <p>Choice of sliced bread (White, Wheat, Light or Dark Rye, or Sour) or rolls (Sweet, Sour, Onion, or Dutch Crunch), mayo, mustard (Regular, Mendocino, or Dijon), lettuce, pickles, tomatoes, sprouts, onions, peppers, and choice of cheese.</p>
             </div>
-            <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center gap-12">
             {items.map(item => {
                 if (typeof item === 'string') return null;
                 return (

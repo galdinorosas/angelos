@@ -4,157 +4,162 @@
             "name": "Angelo's (Coppa, Salami, and Mortadella)",
             "price": "$12.75",
             "isFavorite": true,
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-angelos.webp"
         },
         {
             "name": "BLT (Bacon, Lettuce, and Tomato)",
             "price": "$11.45",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-blt.webp"
         },
         {
             "name": "Bologna",
             "price": "$11.75",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-bologna.webp"
         },
         {
             "name": "Cheese",
             "price": "$11.95",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-cheese.webp"
         },
         {
             "name": "Chicken Salad",
             "price": "$11.95",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-chicken-salad.webp"
         },
         {
             "name": "Coppa (Hot or Mild)",
             "price": "$12.75",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-copa.webp"
         },
         {
             "name": "Corn Beef",
             "price": "$11.95",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-corn-beef.webp"
         },
         {
             "name": "Egg Salad",
             "price": "$11.95",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-egg-salad.webp"
         },
         {
             "name": "Genoa Salami",
             "price": "$12.75",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-genoa-salami.webp"
         },
         {
             "name": "Ham",
             "price": "$11.95",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-ham.webp"
         },
         {
             "name": "Head Cheese",
             "price": "$11.95",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-head-cheese.webp"
         },
         {
             "name": "Liverwurst",
             "price": "$11.95",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-liverwurst.webp"
         },
         {
             "name": "Louisiana Sausage",
             "price": "$12.45",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-louisiana-sausage.webp"
         },
         {
-            "name": "Meatball or Meatloaf",
+            "name": "Meatball",
             "price": "$12.45",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-meatball.webp"
+        },
+        {
+            "name": "Meatloaf",
+            "price": "$12.45",
+            "image": "/sandwich-meatloaf.webp"
         },
         {
             "name": "Mortadella",
             "price": "$11.95",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-mortadella.webp"
         },
         {
             "name": "Pastrami",
             "price": "$11.95",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-pastrami.webp"
         },
         {
             "name": "Poorboy",
             "price": "$11.95",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-poorboy.webp"
         },
         {
             "name": "Prosciutto",
             "price": "$13.45",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-prosciutto.webp"
         },
         {
             "name": "Richlady (Ham, Turkey, and Salami)",
             "price": "$12.45",
             "isFavorite": true,
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-richlady.webp"
         },
         {
             "name": "Roast Beef",
             "price": "$12.45",
             "isFavorite": true,
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-roastbeef.webp"
         },
         {
             "name": "Rueben",
             "price": "$12.45",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-reuban.webp"
         },
         {
             "name": "Salami",
             "price": "$11.95",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-salami.webp"
         },
         {
             "name": "Super Natural (Veggie)",
             "price": "$11.95",
-            "image": "/sandwich-group.jpg",
+            "image": "/sandwich-super-natural.webp",
             "isFavorite": true
         },
         {
             "name": "Thuringer (Beef)",
             "price": "$12.75",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-thuringer.webp"
         },
         {
             "name": "Toscano",
             "price": "$12.45",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-toscano.webp"
         },
         {
             "name": "Tuna",
             "price": "$11.95",
-            "image": "/sandwich-group.jpg",
+            "image": "/sandwich-tuna.webp",
             "isFavorite": true
         },
         {
             "name": "Turkey",
             "price": "$11.95",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-turkey.webp"
         },
         {
             "name": "Turkey, Bacon, and Avocado",
             "price": "$12.95",
             "isFavorite": true,
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-turkey-bacon-avocado.webp"
         },
         {
             "name": "Turkey Cranberry",
             "price": "$12.45",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-turkey-cranberry.webp"
         },
         {
             "name": "B.B.Q. Beef",
             "price": "$12.45",
-            "image": "/sandwich-group.jpg"
+            "image": "/sandwich-bbq-beef.webp"
         }        
     ],
     "houseMenu": [

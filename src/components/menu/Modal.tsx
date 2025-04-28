@@ -24,9 +24,9 @@ const ImageModal = ({handleClose}: {handleClose: () => void}) => {
         aria-labelledby="image-modal-title"
         onRequestClose={handleClose}
         style={style}
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-[50%] sm:w-[65%] md:h-[65%] bg-white rounded-md p-4 outline-none"
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-[60%] sm:w-[50%] sm:h-[70%] md:h-[80%] bg-white rounded-md p-4 outline-none z-10"
       >
-        <Image className="w-full h-full object-cover object-center" src={imageState?.image || ''} alt={imageState?.name || ''} width={700} height={700} />
+        <Image className="w-full h-full object-cover object-center z-1000" src={imageState?.image || ''} alt={imageState?.name || ''} width={350} height={600} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 40vw, 33vw" />
       </Modal>
   );
 };

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Metadata } from "next";
 import { Poppins, Italianno } from "next/font/google";
 import "./globals.css";
@@ -34,18 +35,18 @@ export default function RootLayout({
           ${poppins.variable}
           ${italianno.variable}
           antialiased
-          bg-white
-          bg-[url('../../public/vegetables.webp')]
-          bg-cover
-          bg-center
-          bg-fixed
         `}
       >
-        <Header />
-        <main className="max-w-[1200px] h-full mx-auto bg-white border-l border-r pt-[60px] pb-[30px] scroll-y overflow-x-hidden">
-          {children}
-        </main>
-        <Footer />
+        <section className="relative">
+          <Image src="/vegetables.webp" alt="vegetables" fill className="absolute top-0 z-[-100] object-cover"/>
+          <Header />
+          <main className="max-w-[1200px] h-full mx-auto bg-white border-l border-r pt-[60px] pb-[30px] scroll-y overflow-x-hidden">
+            {children}
+          </main>
+          <Footer />
+        </section>
+        
+          
       </body>
     </html>
   );

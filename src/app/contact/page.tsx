@@ -6,10 +6,7 @@ const ContactUs = () => {
       </h2>
       <section className="flex flex-col gap-8 justify-center items-center">
         <p className="text-center max-w-[800px]">
-          {`Savor the authentic flavors of Italy with our delicious sandwiches, 
-          crafted with the finest ingredients. Planning a special event?
-          Let Angelo's Gourmet Delicatessen bring the taste of Italy to you!
-          For catering inquiries, please give us a call. We look forward to hearing from you!`}
+          {`Craving a delicious sandwich made with high-quality ingredients? At Angelo's Gourmet Delicatessen, we're dedicated to crafting flavorful meals. For catering inquiries, please call us. We look forward to hearing from you!`}
         </p>
         <div className="flex flex-col gap-4 justify-center items-center">
           <div className="flex flex-row gap-4">
