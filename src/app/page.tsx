@@ -12,14 +12,14 @@ export default function Home() {
 
   const commonImageClassName = "rounded-md w-full h-[300px] md:h-[400px] bg-[#F7F8F8] bg-cover bg-center relative z-0"
   const menuImage = <div key="menu-image" className={commonImageClassName}>
-    <Image  alt="menu-image" src="/sandwich-group.webp"  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 40vw, 33vw" fill className="rounded-md" />
+    <Image  alt="menu-image" src="/sandwich-group.webp"  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 40vw, 33vw" fill className="rounded-md object-cover" />
   </div>
   // const aboutUsImage = <Image key="about-us-image" className={`bg-[url('../../public/sandwich-group.webp')] loading="lazy" ${commonImageClassName}`} />
   const contactUsImage = <div key="contact-us-image" className={commonImageClassName}>
-    <Image alt="contact-us-image" src="/owners.webp"  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 40vw, 33vw" fill className="rounded-md" loading="lazy"/>
+    <Image alt="contact-us-image" src="/owners.webp"  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 40vw, 33vw" fill className="rounded-md object-cover" loading="lazy"/>
   </div>
   const galleryImage = <div key="gallery-image" className={commonImageClassName}>
-    <Image alt="gallery-image" src="/chips-2.webp"  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 40vw, 33vw" fill className="rounded-md" loading="lazy"/>
+    <Image alt="gallery-image" src="/chips-2.webp"  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 40vw, 33vw" fill className="rounded-md object-cover" loading="lazy"/>
   </div>
 
   const mobileOrder = [
