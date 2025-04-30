@@ -38,7 +38,7 @@ export default function RootLayout({
         `}
       >
         <section className="relative">
-          <Image src="/vegetables.webp" alt="vegetables" fill className="absolute top-0 z-[-100] object-cover"/>
+          <Image src="/vegetables.webp" alt="vegetables" fill className="!fixed top-0 z-[-100] object-cover"/>
           <Header />
           <main className="max-w-[1200px] h-full mx-auto bg-white border-l border-r pt-[60px] pb-[30px] scroll-y overflow-x-hidden">
             {children}

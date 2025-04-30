@@ -13,9 +13,9 @@ const ContactUs = () => {
             <p className="font-bold">Phone:</p>
             <p>510-234-2485</p>
           </div>
-          <div className="flex flex-row gap-4">
+          <div className="flex flex-row gap-4 justify-center items-center">
             <p className="font-bold">Address:</p>
-            <p>12025 San Pablo Avenue, Richmond, CA 94805</p>
+            <p className="w-fit-content">12025 San Pablo Avenue, Richmond, CA 94805</p>
           </div>
         </div>
       </section>
